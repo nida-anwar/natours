@@ -9,7 +9,7 @@
     margin-bottom: 8rem;
   }
   &__logo {
-    // width: 15rem;
+    width: 30rem;
     height: auto;
   }
   &__navigation {
@@ -23,7 +23,7 @@
   &__item {
     display: inline-block;
 
-    &:not(:last-child) {
+    & a:not(:last-child) {
       margin-right: 1.5rem;
     }
   }
